@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; -->
+    <meta name="author" content="Vince Chang">
+    <meta name="description" content="This is my portfolio website that I have created.">
+    <meta name="keywords" content="Vince Chang, vincechangsf@gmail.com"
+   
+    <!-- Things for the tab at the top -->
+    <link rel="icon" href="images/vchang.jpg">
+    <title>vincechang.net</title>
+    
+    <!-- Linking addtional pages -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Don't know what this is for yet -->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+  </head>
+
+
+<!-- =============== NAVBAR =============== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://www.vincechang.net">vincechang.net</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li id="Top"><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="documents/vchang_resume.pdf">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+<!-- =============== LANDING PAGE =============== -->
+    <div class="hero">
+      <div class="centered_content">
+        <img class="img-circle" src="images/vchang.jpg" width="350" height="350">
+          <h1>Vince Chang </h1>
+          <h2>Front-End &amp; Software Engineer </h2>
+<!--           <p><a class="btn btn-lg btn-primary" href="#" role="button">Enter</a></p>
+ -->      </div>
+    </div>
+
+
+<!-- =============== WIDGETS =============== -->
+    <div class="row col-md-10 col-md-offset-1">      
+      <div class="row"> 
+        <div class="col-lg-4 centered_content">
+          <img class="img-circle" src="images/resume_icon.png" width="140" height="140">
+          <h2>Work Experience</h2>
+          <p>Computer Science Tutor</p>
+          <p class="work_experience_button_spacing"><a class="btn btn-default" href="documents/vchang_resume.pdf">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4 centered_content">
+          <img class="img-circle" src="images/project_icon.png" width="140" height="140">
+          <h2>Projects</h2>
+          <p>Come and check out my projects I have been working on!</p>
+          <p class="projects_button_spacing"><a class="btn btn-default" href="#projects">View details &raquo;</a></p>
+        </div>      
+        <div class="col-lg-4 centered_content">
+          <img class="img-circle" src="images/education_icon.png" width="140" height="140">
+          <h2>Education</h2>
+          <p>Univeristy of Califonia, San Diego </br> Skyline College </br> College of San Mateo</p>
+          <p><a class="btn btn-default" href="#education">View details &raquo;</a></p>
+        </div>
+      </div>  
+
+
+<!--         <div class="col-lg-4">
+          <img class="img-circle" src="images/achievement_icon.jpg" width="140" height="140">
+          <h2>Achievements</h2>
+          <p><a class="btn btn-default" href="achievements.html" >View details &raquo;</a></p>
+        </div>
+        LOOK AT THE ROW DIVS AGAIN TO MAKE SURE IT IS CLOSED-->
+
+
+<!-- =============== ABOUT ME =============== -->
+      <hr class="horizontalRule_Spacing">
+      <div class="row">
+        <div class="col-md-7">
+          <h2 id="about" class="mainContent_heading">Who is this guy?!</h2>
+          <p class="about_me_text">I am a senior transfer student at UCSD earning my way to obtain a B.S in Computer Science. I am a full-time student who worked part-time as a Computer Science Tutor helping students succeed in an Introductory Java courses, Software Engineering, and Software Tools and Techniques Lab. I am now switching up roles this upcoming Fall quarter and will focus my time tutoring students in a Usability and Information Architecture course as a Cognitive Science Instructional Aid.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/vchang_rope.jpg" width="400" height="400">        
+        </div>
+      </div>
+      
+
+<!-- =============== PROJECTS =============== -->
+      <hr class="horizontalRule_Spacing">
+      <div class="row">
+        <h2 class="mainContent_heading">Projects</h2>
+        <div class="col-lg-4">
+          <div class="centered_content">
+            <img id="projects" src="images/sudowoodo_logo.png" width="300" height="200">
+            <h3>Sudowoodo</h3>                   
+          </div>                
+          <p class="sudowoodo_bottom_padding">This is an Android app that notifies users when a plant from their list needs to be watered based on the daily weather report given by Yahoo! Users have the ability to discover a variety of plant classifications and manage their profile. My team completed this app during Fall 2015 Quarter.</p>
+          <p>Team Members: Mitch Topete, Mahdis Mirmosayeb</p>   
+          <p>Skills learned/used: Agile Development, Stand-Up Meetings, Android Studio, Parse</p>
+          <p>My Responsibilities: UX/UI &amp; Front-End Design</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="centered_content">
+            <img id="projects" src="images/dancify_logo.jpg" width="300" height="200">
+            <h3>Dancify</h3>
+          </div>
+          <p>This a web app that connects users with people who would like to attend a dance event. Users are matched based on their profile information which include availability, location, gender preference, and music genre. This project took place over a 3 day span at <a href="http://www.sdhacks.io/">SD Hack-a-thon</a>.</br> Check it out on Devpost: <a href="http://www.devpost.com/software/dancify">Dancify</a></p>
+          <p>Team Members: Atl Arredondo, Eddie Tapia, Natalia Alvarez</p>
+          <p>Skills learned/used: Node.js, Express, IBM Bluemix, Ionic</p>
+          <p>My Responsibilities: UX/UI and Front-End Design</p>        
+        </div>
+        <div class="col-lg-4">
+          <div class="centered_content">
+            <img id="projects" src="images/synth.png" width="300" height="200">
+            <h3>Synth</h3>
+          </div>
+          <p class="synth_bottom_padding">This a Mobile Redesign of a music app we would like to call Synth. Please click on 'View details' to see how we did it!</br> Check it out on InVision: <a href="https://invis.io/QG6H5U5HJ">Synth</a></p>
+          <p>Team Members: Mitch Topete, Rahul Ramath</p>
+          <p>Skills learned/used: InVision, Lookback.io, Photoshop, Usability &amp; Information Architecture</p>
+          <p>My Responsibilities: Wireframe Creation, Design Brainstorming</p>
+          <p><a class="btn btn-default synth_view_details_button" href="synth.html" >View details &raquo;</a>
+        </div>                         
+      </div>
+ 
+
+<!-- =============== EDUCATION =============== -->
+      <hr class="horizontalRule_Spacing">
+      <div class="row">
+        <h2 class="mainContent_heading">Education</h2>
+        <div class="col-lg-4">
+          <a href="http://www.ucsd.edu"><img id="education" class="img-circle" src="images/ucsd_logo.png" width="300" height="200"></a>
+          <h3>UC San Diego</h3>
+          <p>Dates Attended: September 2014 - Present </p>
+          <p>Expected Graduation Date: March 2017</p>
+          <ul>
+            <li>Introduction to Computer Science and Object-Oriented Programming: Java (CSE 11)</li>
+            <li>Basic Data Structures and Object-Oriented Design (CSE 12)</li>
+            <li>Software Tools and Techniques Laboratory (CSE 15L)</li>
+            <li>Discrerte Mathematics (CSE 20)</li>
+            <li>Mathematics for Algorithms and Systems (CSE 21) </li>
+            <li>Computer Organization &amp; Systems Programming (CSE 30)</li>
+            <li>Undergraduate Tutor Seminar (CSE 90)</li>
+            <li>Advanced Data Structures (CSE 100)</li>
+            <li>Design &amp; Analysis of Algorithms (CSE 101)</li>
+            <li>A Practical Introduction to Probability and Statistics (CSE 103)</li>
+            <li>Theory of Computability (CSE 105)</li>
+            <li>Software Engineering (CSE 110)</li>
+            <li>Principles of Computer Operating Systems (CSE 120)</li>
+            <li>Programming Languages: Principles and Paradigms (CSE 130)</li>            
+            <li>Design for Development (ENG 100D)</li>
+            <li>Design for Development Lab (ENG 100L) </li>
+            <li>Usability &amp; Information Architecture (COGS 187A)</li>
+            <li>Components &amp; Design Techniques for Digial Systems (CSE 140)</li>
+            <li>Digital Systems Laboratory (CSE 140L)</li>
+            <li>Introduction to Computer Architecture (CSE 141)</li>
+            <li>Project in Computer Architecture (CSE 141 L)</li>
+            <li>Field Study in Computer Science &amp; Engineering (CSE 197)</li>
+          </ul>           
+        </div>
+        <div class="col-lg-4">
+          <a href="http://www.collegeofsanmateo.edu"><img src="images/csm_logo.jpg" width="300" height="200"></a>
+          <h3>College of San Mateo</h3>
+          <p>Dates Attended: June 2010 - June 2014</p>
+          <ul>
+            <li>Introduction to Computer &amp; Information Science (CIS 110)</li>
+            <li>Introduction to Object-Oriented Program Design: Java (CIS 254)</li>
+            <li>Programming Methods: C++ (CIS 278)</li>
+            <li>Calculus/Analytic Geometry III (MATH 253)</li>
+            <li>Linear Algebra (MATH 270) </li>
+            <li>Ordinary Differntial Equations (MATH 275)</li>
+          </ul>          
+        </div>
+        <div class="col-lg-4">
+          <a href="http://www.skylinecollege.edu"><img src="images/skyline_logo.png" width="300" height="200"></a>
+            <h3>Skyline College</h3>
+            <p>Dates Attended: June 2010 - June 2014</p>
+            <p>Associate in Arts, Mathematics</br>
+            Associate in Arts, Interdisciplinary Studies Letters &amp; Science</br>
+            Associate in Arts, Interdisciplinary Studies Social/Natural Sciences</br>
+            Associate in Science, Natural Science</br>
+            <p>Magna Cum Laude, Phi Theta Kappa</p>
+            <ul>
+              <li>Precalculus - Honors (MATH 222)</li>
+              <li>Calculus/Analytic Geometry I (MATH 251)</li>
+              <li>Calculus/Analytic Geometry II (MATH 252)</li>
+              <li>Physics with Calculus I (PHYS 250)</li>
+              <li>Physics with Calculus II (PHYS 260) </li>
+              <li>General Chemisty I (CHEM 210)</li>
+            </ul>           
+        </div>
+      </div>
+
+
+<!-- =============== FOOTER =============== -->
+      <hr class="horizontalRule_Spacing">
+      <footer>
+        <p class="shift_right"><a href="#Top">Back to top</a></p>
+        <div class="social_media_centering">
+          <h3 id="contact">Stay Connected!</h3>
+          <a href="http://www.linkedin.com/in/vincechang26"><img src="images/linkedin_logo.png" width="50" height="50"></a>
+          <a href="http://www.instagram.com/vinbeasty/"><img src="images/instagram_logo.gif" width="50" height="50"></a>
+          <a href="http://www.twitter.com/vinbeasty"><img src="images/twitter_logo.png" width="50" height="50"></a> 
+          <a href="http://www.pinterest.com/vinbeasty/"><img src="images/pinterest_logo.png" width="50" height="50"></a>
+          <a href="images/snapcode.png"><img src="images/snapchat_logo.png" width="50" height="50"></a>   
+        </div>
+        <p>&copy; vincechang.net</p>
+      </footer>
+
+    </div> <!-- END OF BIG DIV THAT PUSHES ALL CONTENT IN THE MIDDLE -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+     Just to make our placeholder images work. Don't actually copy the next line!
+    <script src="/js/vendor/holder.min.js"></script>-->
+
+  </body>
+</html>

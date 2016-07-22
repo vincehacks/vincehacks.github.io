@@ -1,0 +1,104 @@
+/********** GENERAL **********/
+
+/* Making some room from the bottom of the webpage. */
+body {
+  padding-bottom: 40px;
+}
+
+/* Space out the <hr> more, The order is TOP RIGHT BOTTOM LEFT
+ * I need 40 for top to make space, and 0 for right so that
+ * the horizontal line is extended longer! */
+.horizontalRule_Spacing {
+  margin: 40px 0; 
+}
+
+/* Creates the circle effect and positions in the middle. */
+.img-circle {
+/*  margin: auto;
+  display: block;  This part of code works too. Leave this here for future reference. */
+  border-radius: 50%
+}
+
+.mainContent_heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.centered_content{
+  text-align: center;
+}
+
+
+/********** NAVBAR **********/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/********** LANDING PAGE **********/
+.hero {
+	height: 720px;
+	background-color: #2F4F4F;
+	margin-bottom: 50px;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+
+/********** WIDGETS **********/
+.work_experience_button_spacing{
+  padding-top: 42px;
+}
+
+.projects_button_spacing{
+  padding-top: 20px;
+}
+
+
+/********** ABOUT ME **********/
+.about_me_text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+
+/********** PROJECTS **********/
+.synth_view_details_button{
+  float: right;
+  margin-right: 100px;
+}
+
+.sudowoodo_bottom_padding{
+  padding-bottom: 21px;
+}
+
+.synth_bottom_padding{
+  padding-bottom: 60px;
+}
+
+
+/********** EDUCATION **********/
+ul{
+  margin-left: -24px;
+}
+
+
+/********** FOOTER **********/
+.shift_right{
+	text-align: right;
+}
+
+footer h3{
+  text-align: center;
+}
+
+.social_media_centering {
+   margin: auto;
+   text-align: center;
+}
